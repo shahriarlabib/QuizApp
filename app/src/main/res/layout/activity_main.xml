@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dde2de"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quesno"
+        android:text="@string/ques_no"
+        android:layout_marginTop="30dp"
+        android:textColor="#070807"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedoption"
+            android:visibility="gone"
+            android:id="@+id/selop"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/corAns"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:text="@string/correctanswer">
+
+        </TextView>
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@drawable/dial"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#101311"
+            android:id="@+id/ques"
+            android:text="@string/q1"
+            android:textSize="15sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first2op"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/opa"
+        android:text="@string/q1op1"
+        android:background="@drawable/opdesign"
+        android:textColor="#272324"
+        android:textAlignment="center"
+        android:paddingTop="14dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/opb"
+        android:text="@string/q1op2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/opdesign"
+        android:textColor="#272324"
+        android:textAlignment="center"
+        android:paddingTop="14dp">
+    </TextView>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sec2op"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/opc"
+    android:text="@string/q1op3"
+        android:background="@drawable/opdesign"
+    android:layout_marginTop="10dp"
+    android:textColor="#272324"
+    android:textAlignment="center"
+    android:paddingTop="14dp">
+    </TextView>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/opd"
+        android:text="@string/q1op4"
+            android:background="@drawable/opdesign"
+            android:layout_marginTop="10dp"
+        android:textColor="#272324"
+        android:textAlignment="center"
+        android:paddingTop="14dp">
+</TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:textStyle="bold"
+            android:textColor="#101311"
+            android:text="@string/score"
+            android:layout_gravity="center"
+            android:padding="15dp"/>
+
+
+
+        <ProgressBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffa384"
+            android:layout_gravity="bottom"
+            android:paddingBottom="10dp"
+            android:id="@+id/pbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:indeterminate="false">
+
+        </ProgressBar>
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>

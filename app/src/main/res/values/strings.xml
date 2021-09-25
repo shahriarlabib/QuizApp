@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">System Quiz</string>
+
+
+    <string name="score">Score 0/7</string>
+    <string name="ques_no">1/7 Question</string>
+
+    <string name="q1">A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?</string>
+    <string name="q1op1">3.6</string>
+    <string name="q1op2">7.2</string>
+    <string name="q1op3">8</string>
+    <string name="q1op4">10.4</string>
+    <string name="q1ans">7.2</string>
+
+
+    <string name="q2">Express 25 mps in kmph?</string>
+    <string name="q2op1">15 kmph</string>
+    <string name="q2op2">99 kmph</string>
+    <string name="q2op3">90 kmph</string>
+    <string name="q2op4">101 kmph</string>
+    <string name="q2ans">99 kmph</string>
+
+    <string name="q3">How long will a boy take to run round a square field of side 35 meters, If he runs at the rate of 9 km/hr?</string>
+    <string name="q3op1">50 sec</string>
+    <string name="q3op2">52 sec</string>
+    <string name="q3op3">54 sec</string>
+    <string name="q3op4">56 sec</string>
+    <string name="q3ans">56 sec</string>
+
+    <string name="q4">A speed of a train is 20 meters per second. It can cross a pole in 10 seconds. What is the length of a train?</string>
+    <string name="q4op1">150 m</string>
+    <string name="q4op2">250 m</string>
+    <string name="q4op3">200 m</string>
+    <string name="q4op4">300 m</string>
+    <string name="q4ans">200 m</string>
+
+    <string name="q5"> Nancy travelled a distance of 455 km by car in 10 hours. Find the speed of the car.</string>
+    <string name="q5op1">25.5 km/hr</string>
+    <string name="q5op2">45.5 km/hr</string>
+    <string name="q5op3">30 km/hr</string>
+    <string name="q5op4">60 km/hr</string>
+    <string name="q5ans">45.5 km/hr</string>
+
+    <string name="q6"> Wind blows 160 miles in 330min.for 80 miles how much time required?</string>
+    <string name="q6op1">165</string>
+    <string name="q6op2">159</string>
+    <string name="q6op3">162</string>
+    <string name="q6op4">160</string>
+    <string name="q6ans">165</string>
+
+    <string name="q7"> A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?</string>
+    <string name="q7op1">3.6</string>
+    <string name="q7op2">7.2</string>
+    <string name="q7op3">8.4</string>
+    <string name="q7op4">10</string>
+    <string name="q7ans">7.2</string>
+
+
+    <string name="ansvef">AnswerVerification</string>
+    <string name="correctanswer">CorrectAnswer</string>
+    <string name="selectedoption">SelectedOption</string>
+
+
+</resources>
